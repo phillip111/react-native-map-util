@@ -1,10 +1,10 @@
-interface Params {
+type Params = {
     lon?: number;
     lat?: number;
     address?: string;
 }
 
-interface MapTarget {
+type MapTarget = {
     title: target;
     url: target;
 }
