@@ -6,6 +6,10 @@
     "typings": "index.d.ts",
     "license": "MIT",
     "author": "phillip.zheng",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:/phillip111/react-native-map-util"
+    },
     "keywords": [
         "react-native",
         "native mapApp"

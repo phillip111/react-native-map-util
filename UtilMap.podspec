@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.version        = package['version']
   s.license        = 'MIT'
   s.summary        = 'Audio recorder library for React Native'
-  s.author         = { 'Joshua Sierles' => 'joshua@diluvia.net' }
-  s.homepage       = "https://github.com/jsierles/react-native-audio"
-  s.source         = { :git => 'https://github.com/jsierles/react-native-audio.git', :tag => "v#{s.version}"}
+  s.author         = { 'phillip' => '534394926@qq.com' }
+  s.homepage       = "https://github.com/phillip111/react-native-map-util"
+  s.source         = { :git => 'https://github.com/phillip111/react-native-map-util.git', :tag => "v#{s.version}"}
   s.platform       = :ios, '8.0'
   s.preserve_paths = '*.js'
 
