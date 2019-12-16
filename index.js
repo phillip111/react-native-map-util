@@ -12,9 +12,9 @@ export function getMapList(params) {
     return new Promise((resolve) => {
         navigator.geolocation && navigator.geolocation.getCurrentPosition(
             (position) => {
-                place.lon = position.coords.longitude;
-                place.lat = position.coords.latitude;
-                place.address = position.coords.address;
+                place.lon = String(position.coords.longitude);
+                place.lat = String(position.coords.latitude);
+                place.address = String(position.coords.address);
                 const { lon, lat, address } = { ...place, ...params };
                 UtilMap.findEvents(lon, lat, address, (list) => {
                     resolve(list)
