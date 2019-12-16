@@ -1,0 +1,13 @@
+{
+    "name": "react-native-map-util",
+    "version": "0.0.3",
+    "description": "A native map link util",
+    "main": "index.js",
+    "typings": "index.d.ts",
+    "license": "MIT",
+    "author": "phillip.zheng",
+    "keywords": [
+        "react-native",
+        "native mapApp"
+    ]
+}
